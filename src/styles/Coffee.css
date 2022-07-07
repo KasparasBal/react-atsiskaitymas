@@ -1,0 +1,8 @@
+.coffee_page_container {
+  display: flex;
+  padding-top: 5rem;
+}
+.coffee_page {
+  display: flex;
+  flex-wrap: wrap;
+}
