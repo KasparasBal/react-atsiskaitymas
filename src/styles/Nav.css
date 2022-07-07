@@ -1,0 +1,34 @@
+.navigation {
+  background-color: #795548;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+.links a {
+  margin-left: 5rem;
+  transition: 0.3s ease;
+}
+.links a:hover {
+  color: #55372e;
+  transition: 0.3s ease;
+}
+.links a,
+.login a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.login {
+  background-color: #5d4037;
+  padding: 1rem;
+  border-radius: 2rem;
+  transition: 0.3s ease;
+}
+
+.login:hover {
+  background-color: #55372e;
+  transition: 0.3s ease;
+}
