@@ -25,6 +25,7 @@ const Coffee = () => {
         {coffee &&
           coffee.map((coffee) => (
             <Product
+              key={coffee._id}
               title={coffee.title}
               year={coffee.type}
               price={coffee.description}

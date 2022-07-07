@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/App.css";
 
 import Nav from "./components/Nav";
-import Home from "./components/Home";
+import Favorites from "./components/Favorites";
 import Coffee from "./components/Coffee";
 import Login from "./components/Login";
 import Register from "./components/Register";
@@ -15,11 +15,11 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/favorites" element={<Favorites />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/about" element={<About />} />
-          <Route path="/coffee" element={<Coffee />} />
+          <Route path="/" element={<Coffee />} />
         </Routes>
       </BrowserRouter>
     </>

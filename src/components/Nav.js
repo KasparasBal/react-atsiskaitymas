@@ -22,8 +22,8 @@ const Nav = () => {
     <nav className="navigation">
       <div className="logo">{logo}</div>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/coffee">Coffee</Link>
+        <Link to="/">Coffee</Link>
+        <Link to="/favorites">Favorites</Link>
         <Link to="/about">About</Link>
       </div>
       <div className="login_btn">
