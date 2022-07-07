@@ -1,5 +1,5 @@
 const Coffee = () => {
-  return <></>;
+  return <>Coffee</>;
 };
 
 export default Coffee;

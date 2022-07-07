@@ -4,6 +4,10 @@ import "./styles/App.css";
 
 import Nav from "./components/Nav";
 import Home from "./components/Home";
+import Coffee from "./components/Coffee";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import About from "./components/About";
 
 function App() {
   return (
@@ -12,6 +16,10 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/coffee" element={<Coffee />} />
         </Routes>
       </BrowserRouter>
     </>
