@@ -1,0 +1,15 @@
+.beans {
+  width: 100rem;
+  height: 50rem;
+  border-radius: 0.5rem;
+  margin-top: 10rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_description {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+}
