@@ -1,0 +1,50 @@
+.createCoffee {
+  background-color: #795548;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  max-width: 60%;
+  max-height: 100%;
+  margin-top: 2rem;
+  color: #dcd7c9;
+}
+.inputArea {
+  width: 80%;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  outline: none;
+}
+.inputLabel {
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+.formTitle {
+  font-size: 2rem;
+}
+.submit-btn {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+  background-color: #5d4037;
+  border: none;
+  font-weight: 700;
+  color: #dcd7c9;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: #55372e;
+  transition: 0.3s ease;
+}
+.error {
+  background-color: rgba(255, 0, 0, 0.205);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+}

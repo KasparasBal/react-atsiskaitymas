@@ -3,7 +3,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/App.css";
 
 import Nav from "./components/Nav";
-import Home from "./components/Home";
+import AddCoffee from "./components/AddCoffee";
+import Coffee from "./components/Coffee";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import About from "./components/About";
 
 function App() {
   return (
@@ -11,7 +15,11 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/addCoffee" element={<AddCoffee />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Coffee />} />
         </Routes>
       </BrowserRouter>
     </>
